@@ -1,3 +1,5 @@
+Source: https://github.com/pschwermer/kth-thesis/blob/master/Code/BenchmarkApp/src/main/java/com/benchmarks/patrik/benchmarks/kotlinConverted/FannkuchRedux.kt
+
 package com.benchmarks.patrik.benchmarks.kotlinConverted
 
 /* The Computer Language Benchmarks Game
@@ -6,8 +8,6 @@ package com.benchmarks.patrik.benchmarks.kotlinConverted
    contributed by Isaac Gouy
    converted to Java by Oleg Mazurov
    mostly auto-converted to Kotlin by Patrik Schwermer
-
-   Source for file: https://github.com/pschwermer/kth-thesis/blob/master/Code/BenchmarkApp/src/main/java/com/benchmarks/patrik/benchmarks/kotlinConverted/FannkuchRedux.kt
 */
 
 class FannkuchRedux {
