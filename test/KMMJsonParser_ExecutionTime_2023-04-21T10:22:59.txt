@@ -1,0 +1,102 @@
+KMM:
+JsonParser results (50 iterations, n = -1):
+Execution time (it=1): 0.04103372001554817 
+---
+Execution time (it=2): 0.031005972996354103 
+---
+Execution time (it=3): 0.027467396983411163 
+---
+Execution time (it=4): 0.025504566001472995 
+---
+Execution time (it=5): 0.025475769012700766 
+---
+Execution time (it=6): 0.025477390008745715 
+---
+Execution time (it=7): 0.025853118975646794 
+---
+Execution time (it=8): 0.0253024960111361 
+---
+Execution time (it=9): 0.025525567994918674 
+---
+Execution time (it=10): 0.02630296698771417 
+---
+Execution time (it=11): 0.025266067998018116 
+---
+Execution time (it=12): 0.025249807018553838 
+---
+Execution time (it=13): 0.025257615983719006 
+---
+Execution time (it=14): 0.025256458000512794 
+---
+Execution time (it=15): 0.02518896001856774 
+---
+Execution time (it=16): 0.02526591598871164 
+---
+Execution time (it=17): 0.02550220300327055 
+---
+Execution time (it=18): 0.025111930997809395 
+---
+Execution time (it=19): 0.025339810003060848 
+---
+Execution time (it=20): 0.025997732998803258 
+---
+Execution time (it=21): 0.02530158997979015 
+---
+Execution time (it=22): 0.025135239004157484 
+---
+Execution time (it=23): 0.025262065028073266 
+---
+Execution time (it=24): 0.025417472003027797 
+---
+Execution time (it=25): 0.025181898003211245 
+---
+Execution time (it=26): 0.025269039993872866 
+---
+Execution time (it=27): 0.025214631983544677 
+---
+Execution time (it=28): 0.02552204401581548 
+---
+Execution time (it=29): 0.025908468989655375 
+---
+Execution time (it=30): 0.025227873004041612 
+---
+Execution time (it=31): 0.025335195008665323 
+---
+Execution time (it=32): 0.025374916003784165 
+---
+Execution time (it=33): 0.026031065004644915 
+---
+Execution time (it=34): 0.02665905500180088 
+---
+Execution time (it=35): 0.02534778800327331 
+---
+Execution time (it=36): 0.025350584997795522 
+---
+Execution time (it=37): 0.025154066999675706 
+---
+Execution time (it=38): 0.02539816699572839 
+---
+Execution time (it=39): 0.026053529989439994 
+---
+Execution time (it=40): 0.025471622997429222 
+---
+Execution time (it=41): 0.02517571099451743 
+---
+Execution time (it=42): 0.02604273601900786 
+---
+Execution time (it=43): 0.0260035140090622 
+---
+Execution time (it=44): 0.025247479003155604 
+---
+Execution time (it=45): 0.025213860993972048 
+---
+Execution time (it=46): 0.025576495012501255 
+---
+Execution time (it=47): 0.02524601499317214 
+---
+Execution time (it=48): 0.02547384999343194 
+---
+Execution time (it=49): 0.02548747300170362 
+---
+Execution time (it=50): 0.025223459990229458 
+---
