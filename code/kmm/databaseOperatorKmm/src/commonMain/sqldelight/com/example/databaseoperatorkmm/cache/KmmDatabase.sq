@@ -1,0 +1,26 @@
+CREATE TABLE IF NOT EXISTS BenchTable (
+    Id INTEGER PRIMARY KEY NOT NULL,
+    BenchText TEXT
+);
+
+insert:
+INSERT INTO BenchTable(Id, BenchText)
+VALUES(?, ?);
+
+selectAll:
+SELECT * FROM BenchTable;
+
+selectOne:
+SELECT * FROM BenchTable WHERE Id = ?;
+
+updateAll:
+UPDATE BenchTable SET BenchText = ?;
+
+updateOne:
+UPDATE BenchTable SET BenchText = ? WHERE Id = ?;
+
+removeAll:
+DELETE FROM BenchTable;
+
+removeOne:
+DELETE FROM BenchTable WHERE Id = ?;
