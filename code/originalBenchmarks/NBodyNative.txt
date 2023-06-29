@@ -1,9 +1,8 @@
+// Source: https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/nbody-swift-6.html
+
 /* The Computer Language Benchmarks Game
    https://salsa.debian.org/benchmarksgame-team/benchmarksgame/
    contributed by Ralph Ganszky
-
-   Source for file: https://benchmarksgame-team.pages.debian.net/benchmarksgame/program/nbody-swift-6.html
-   
 */
 
 import Glibc
