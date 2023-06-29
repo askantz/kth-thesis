@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557BA273AAA24004C7B11 /* Assets.xcassets */; };
+		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
+		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
+		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
+		F80E893429E5B5080057B35A /* FannkuchReduxNative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F867D03C29DF03040051F9BD /* FannkuchReduxNative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F81031C129F668DF00113F45 /* iosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81031C029F668DF00113F45 /* iosAppTests.swift */; };
+		F814513C2A0A95B9003702FA /* large-file-double.txt in Resources */ = {isa = PBXBuildFile; fileRef = F814513B2A0A95B9003702FA /* large-file-double.txt */; };
+		F867CDC429C3AAF60051F9BD /* fasta1000.txt in Resources */ = {isa = PBXBuildFile; fileRef = F867CDC329C3AAF60051F9BD /* fasta1000.txt */; };
+		F867CDCC29C3B0530051F9BD /* fasta225000.txt in Resources */ = {isa = PBXBuildFile; fileRef = F867CDCB29C3B0530051F9BD /* fasta225000.txt */; };
+		F867CDFC29C9EF8B0051F9BD /* RCout.txt in Resources */ = {isa = PBXBuildFile; fileRef = F867CDFB29C9EF8B0051F9BD /* RCout.txt */; };
+		F867CE2629C9FFD70051F9BD /* kmmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F867CE2529C9FFD70051F9BD /* kmmTests.swift */; };
+		F867CF1429D473190051F9BD /* MetricHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F867CF1329D473190051F9BD /* MetricHandler.swift */; };
+		F867CF1629D473600051F9BD /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F867CF1529D473600051F9BD /* Configs.swift */; };
+		F867D07829DF055F0051F9BD /* FannkuchReduxNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F867D03C29DF03040051F9BD /* FannkuchReduxNative.framework */; };
+		F867D07929DF055F0051F9BD /* FastaNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F867D04229DF03230051F9BD /* FastaNative.framework */; };
+		F867D07A29DF055F0051F9BD /* HttpRequesterNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F867D04A29DF04090051F9BD /* HttpRequesterNative.framework */; };
+		F867D07B29DF055F0051F9BD /* JsonParserNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F867D05029DF04160051F9BD /* JsonParserNative.framework */; };
+		F867D07C29DF055F0051F9BD /* NBodyNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F867D05629DF04220051F9BD /* NBodyNative.framework */; };
+		F867D07D29DF055F0051F9BD /* ReverseComplementNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F867D05E29DF04440051F9BD /* ReverseComplementNative.framework */; };
+		F867D0CC29E01E9E0051F9BD /* ReverseComplementNative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F867D05E29DF04440051F9BD /* ReverseComplementNative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F867D0CD29E01E9E0051F9BD /* NBodyNative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F867D05629DF04220051F9BD /* NBodyNative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F867D0CE29E01E9E0051F9BD /* JsonParserNative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F867D05029DF04160051F9BD /* JsonParserNative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F867D0D029E01E9E0051F9BD /* FastaNative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F867D04229DF03230051F9BD /* FastaNative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F867D12329E5487F0051F9BD /* HttpRequesterNative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F867D04A29DF04090051F9BD /* HttpRequesterNative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F896E8842A053A7700FD2184 /* jsonGithub.txt in Resources */ = {isa = PBXBuildFile; fileRef = F896E8832A053A7700FD2184 /* jsonGithub.txt */; };
+		F896E88E2A05462700FD2184 /* large-file.txt in Resources */ = {isa = PBXBuildFile; fileRef = F896E88D2A05462700FD2184 /* large-file.txt */; };
+		F896E8972A07DBF300FD2184 /* Experiments.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896E8962A07DBF300FD2184 /* Experiments.swift */; };
+		F8975BFD2A1B9D0E008901C4 /* fasta10000000.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8975BFC2A1B9D0E008901C4 /* fasta10000000.txt */; };
+		F8975C062A1BC97C008901C4 /* large-file-fourfold.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8975C052A1BC97C008901C4 /* large-file-fourfold.txt */; };
+		F8B2ACF32A17A66D0046A8E7 /* large-file-triple.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8B2ACF22A17A66D0046A8E7 /* large-file-triple.txt */; };
+		F8B2ACFC2A1847500046A8E7 /* fasta350000.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8B2ACFB2A1847500046A8E7 /* fasta350000.txt */; };
+		F8B2AD062A1ACC030046A8E7 /* DatabaseOperatorNative.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8E407E429F2AF3A008EDD86 /* DatabaseOperatorNative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8B2AD082A1ACD910046A8E7 /* GRDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2AD072A1ACD910046A8E7 /* GRDB.framework */; };
+		F8B2AD092A1ACE1C0046A8E7 /* GRDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8B2AD072A1ACD910046A8E7 /* GRDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8B7DFB129A7B4AE00E8C056 /* PerformanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B7DFB029A7B4AE00E8C056 /* PerformanceCalculator.swift */; };
+		F8B7DFB329A7B54300E8C056 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B7DFB229A7B54300E8C056 /* Protocols.swift */; };
+		F8E4078729F18624008EDD86 /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8E4077F29F185D8008EDD86 /* json.txt */; };
+		F8E4079229F27456008EDD86 /* GithubHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4079129F27456008EDD86 /* GithubHandler.swift */; };
+		F8E407EC29F2AF58008EDD86 /* DatabaseOperatorNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E407E429F2AF3A008EDD86 /* DatabaseOperatorNative.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F81031C229F668DF00113F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7555FF73242A565900829871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7555FF7A242A565900829871;
+			remoteInfo = iosApp;
+		};
+		F867D03B29DF03040051F9BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F867D03729DF03040051F9BD /* FannkuchReduxNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F867CF5929DEF9E60051F9BD;
+			remoteInfo = FannkuchReduxNative;
+		};
+		F867D04129DF03230051F9BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F867D03D29DF03230051F9BD /* FastaNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F867CF6F29DEFB8E0051F9BD;
+			remoteInfo = FastaNative;
+		};
+		F867D04929DF04090051F9BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F867D04529DF04090051F9BD /* HttpRequesterNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F867D01B29DF005D0051F9BD;
+			remoteInfo = HttpRequesterNative;
+		};
+		F867D04F29DF04160051F9BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F867D04B29DF04160051F9BD /* JsonParserNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F867CFC529DEFCFA0051F9BD;
+			remoteInfo = JsonParserNative;
+		};
+		F867D05529DF04220051F9BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F867D05129DF04220051F9BD /* NBodyNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F867CF8529DEFC050051F9BD;
+			remoteInfo = NBodyNative;
+		};
+		F867D05D29DF04440051F9BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F867D05929DF04440051F9BD /* ReverseComplementNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F867CF9B29DEFC4A0051F9BD;
+			remoteInfo = ReverseComplementNative;
+		};
+		F8E407E329F2AF3A008EDD86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8E407DF29F2AF3A008EDD86 /* DatabaseOperatorNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8E407CE29F2AED5008EDD86;
+			remoteInfo = DatabaseOperatorNative;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7555FFB4242A642300829871 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8B2AD092A1ACE1C0046A8E7 /* GRDB.framework in Embed Frameworks */,
+				F8B2AD062A1ACC030046A8E7 /* DatabaseOperatorNative.framework in Embed Frameworks */,
+				F80E893429E5B5080057B35A /* FannkuchReduxNative.framework in Embed Frameworks */,
+				F867D12329E5487F0051F9BD /* HttpRequesterNative.framework in Embed Frameworks */,
+				F867D0CC29E01E9E0051F9BD /* ReverseComplementNative.framework in Embed Frameworks */,
+				F867D0CD29E01E9E0051F9BD /* NBodyNative.framework in Embed Frameworks */,
+				F867D0CE29E01E9E0051F9BD /* JsonParserNative.framework in Embed Frameworks */,
+				F867D0D029E01E9E0051F9BD /* FastaNative.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		058557BA273AAA24004C7B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
+		7555FF7B242A565900829871 /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F81031BE29F668DF00113F45 /* iosAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81031C029F668DF00113F45 /* iosAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosAppTests.swift; sourceTree = "<group>"; };
+		F814513B2A0A95B9003702FA /* large-file-double.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "large-file-double.txt"; sourceTree = "<group>"; };
+		F867CDC329C3AAF60051F9BD /* fasta1000.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = fasta1000.txt; sourceTree = "<group>"; };
+		F867CDCB29C3B0530051F9BD /* fasta225000.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = fasta225000.txt; sourceTree = "<group>"; };
+		F867CDFB29C9EF8B0051F9BD /* RCout.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RCout.txt; sourceTree = "<group>"; };
+		F867CE2529C9FFD70051F9BD /* kmmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kmmTests.swift; sourceTree = "<group>"; };
+		F867CF1329D473190051F9BD /* MetricHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricHandler.swift; sourceTree = "<group>"; };
+		F867CF1529D473600051F9BD /* Configs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
+		F867D03729DF03040051F9BD /* FannkuchReduxNative.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FannkuchReduxNative.xcodeproj; path = ../../nativeBenchmarks/FannkuchReduxNative/FannkuchReduxNative.xcodeproj; sourceTree = "<group>"; };
+		F867D03D29DF03230051F9BD /* FastaNative.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FastaNative.xcodeproj; path = ../../nativeBenchmarks/FastaNative/FastaNative.xcodeproj; sourceTree = "<group>"; };
+		F867D04529DF04090051F9BD /* HttpRequesterNative.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HttpRequesterNative.xcodeproj; path = ../../nativeBenchmarks/HttpRequesterNative/HttpRequesterNative.xcodeproj; sourceTree = "<group>"; };
+		F867D04B29DF04160051F9BD /* JsonParserNative.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JsonParserNative.xcodeproj; path = ../../nativeBenchmarks/JsonParserNative/JsonParserNative.xcodeproj; sourceTree = "<group>"; };
+		F867D05129DF04220051F9BD /* NBodyNative.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NBodyNative.xcodeproj; path = ../../nativeBenchmarks/NBodyNative/NBodyNative.xcodeproj; sourceTree = "<group>"; };
+		F867D05929DF04440051F9BD /* ReverseComplementNative.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReverseComplementNative.xcodeproj; path = ../../nativeBenchmarks/ReverseComplementNative/ReverseComplementNative.xcodeproj; sourceTree = "<group>"; };
+		F896E8832A053A7700FD2184 /* jsonGithub.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = jsonGithub.txt; sourceTree = "<group>"; };
+		F896E88D2A05462700FD2184 /* large-file.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "large-file.txt"; sourceTree = "<group>"; };
+		F896E8962A07DBF300FD2184 /* Experiments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiments.swift; sourceTree = "<group>"; };
+		F8975BFC2A1B9D0E008901C4 /* fasta10000000.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = fasta10000000.txt; sourceTree = "<group>"; };
+		F8975C052A1BC97C008901C4 /* large-file-fourfold.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "large-file-fourfold.txt"; sourceTree = "<group>"; };
+		F8B2ACF22A17A66D0046A8E7 /* large-file-triple.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "large-file-triple.txt"; sourceTree = "<group>"; };
+		F8B2ACFB2A1847500046A8E7 /* fasta350000.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = fasta350000.txt; sourceTree = "<group>"; };
+		F8B2AD072A1ACD910046A8E7 /* GRDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GRDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B7DFB029A7B4AE00E8C056 /* PerformanceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceCalculator.swift; sourceTree = "<group>"; };
+		F8B7DFB229A7B54300E8C056 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		F8E4077F29F185D8008EDD86 /* json.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = json.txt; sourceTree = "<group>"; };
+		F8E4079129F27456008EDD86 /* GithubHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubHandler.swift; sourceTree = "<group>"; };
+		F8E407DF29F2AF3A008EDD86 /* DatabaseOperatorNative.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DatabaseOperatorNative.xcodeproj; path = ../../nativeBenchmarks/DatabaseOperatorNative/DatabaseOperatorNative.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7555FF78242A565900829871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B2AD082A1ACD910046A8E7 /* GRDB.framework in Frameworks */,
+				F8E407EC29F2AF58008EDD86 /* DatabaseOperatorNative.framework in Frameworks */,
+				F867D07829DF055F0051F9BD /* FannkuchReduxNative.framework in Frameworks */,
+				F867D07929DF055F0051F9BD /* FastaNative.framework in Frameworks */,
+				F867D07A29DF055F0051F9BD /* HttpRequesterNative.framework in Frameworks */,
+				F867D07B29DF055F0051F9BD /* JsonParserNative.framework in Frameworks */,
+				F867D07C29DF055F0051F9BD /* NBodyNative.framework in Frameworks */,
+				F867D07D29DF055F0051F9BD /* ReverseComplementNative.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81031BB29F668DF00113F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058557D7273AAEEB004C7B11 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7555FF72242A565900829871 = {
+			isa = PBXGroup;
+			children = (
+				F8E407DF29F2AF3A008EDD86 /* DatabaseOperatorNative.xcodeproj */,
+				F867D05929DF04440051F9BD /* ReverseComplementNative.xcodeproj */,
+				F867D05129DF04220051F9BD /* NBodyNative.xcodeproj */,
+				F867D04B29DF04160051F9BD /* JsonParserNative.xcodeproj */,
+				F867D04529DF04090051F9BD /* HttpRequesterNative.xcodeproj */,
+				F867D03D29DF03230051F9BD /* FastaNative.xcodeproj */,
+				F867D03729DF03040051F9BD /* FannkuchReduxNative.xcodeproj */,
+				7555FF7D242A565900829871 /* iosApp */,
+				F81031BF29F668DF00113F45 /* iosAppTests */,
+				7555FF7C242A565900829871 /* Products */,
+				7555FFB0242A642200829871 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7555FF7C242A565900829871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7555FF7B242A565900829871 /* iosApp.app */,
+				F81031BE29F668DF00113F45 /* iosAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7555FF7D242A565900829871 /* iosApp */ = {
+			isa = PBXGroup;
+			children = (
+				F814518F2A13A6F4003702FA /* Tests */,
+				F814513D2A0AAA15003702FA /* Measurements */,
+				F867CDBA29C0993F0051F9BD /* resources */,
+				058557BA273AAA24004C7B11 /* Assets.xcassets */,
+				7555FF82242A565900829871 /* ContentView.swift */,
+				7555FF8C242A565B00829871 /* Info.plist */,
+				2152FB032600AC8F00CF470E /* iOSApp.swift */,
+				058557D7273AAEEB004C7B11 /* Preview Content */,
+				F896E8962A07DBF300FD2184 /* Experiments.swift */,
+			);
+			path = iosApp;
+			sourceTree = "<group>";
+		};
+		7555FFB0242A642200829871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8B2AD072A1ACD910046A8E7 /* GRDB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F81031BF29F668DF00113F45 /* iosAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F81031C029F668DF00113F45 /* iosAppTests.swift */,
+			);
+			path = iosAppTests;
+			sourceTree = "<group>";
+		};
+		F814513D2A0AAA15003702FA /* Measurements */ = {
+			isa = PBXGroup;
+			children = (
+				F8B7DFB229A7B54300E8C056 /* Protocols.swift */,
+				F8E4079129F27456008EDD86 /* GithubHandler.swift */,
+				F867CF1329D473190051F9BD /* MetricHandler.swift */,
+				F8B7DFB029A7B4AE00E8C056 /* PerformanceCalculator.swift */,
+			);
+			path = Measurements;
+			sourceTree = "<group>";
+		};
+		F814518F2A13A6F4003702FA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F867CE2529C9FFD70051F9BD /* kmmTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F867CDBA29C0993F0051F9BD /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				F867CDC329C3AAF60051F9BD /* fasta1000.txt */,
+				F867CDCB29C3B0530051F9BD /* fasta225000.txt */,
+				F8E4077F29F185D8008EDD86 /* json.txt */,
+				F867CDFB29C9EF8B0051F9BD /* RCout.txt */,
+				F867CF1529D473600051F9BD /* Configs.swift */,
+				F896E8832A053A7700FD2184 /* jsonGithub.txt */,
+				F896E88D2A05462700FD2184 /* large-file.txt */,
+				F814513B2A0A95B9003702FA /* large-file-double.txt */,
+				F8B2ACF22A17A66D0046A8E7 /* large-file-triple.txt */,
+				F8B2ACFB2A1847500046A8E7 /* fasta350000.txt */,
+				F8975BFC2A1B9D0E008901C4 /* fasta10000000.txt */,
+				F8975C052A1BC97C008901C4 /* large-file-fourfold.txt */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		F867D03829DF03040051F9BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F867D03C29DF03040051F9BD /* FannkuchReduxNative.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F867D03E29DF03230051F9BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F867D04229DF03230051F9BD /* FastaNative.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F867D04629DF04090051F9BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F867D04A29DF04090051F9BD /* HttpRequesterNative.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F867D04C29DF04160051F9BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F867D05029DF04160051F9BD /* JsonParserNative.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F867D05229DF04220051F9BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F867D05629DF04220051F9BD /* NBodyNative.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F867D05A29DF04440051F9BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F867D05E29DF04440051F9BD /* ReverseComplementNative.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8E407E029F2AF3A008EDD86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8E407E429F2AF3A008EDD86 /* DatabaseOperatorNative.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7555FF7A242A565900829871 /* iosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7555FFA5242A565B00829871 /* Build configuration list for PBXNativeTarget "iosApp" */;
+			buildPhases = (
+				7555FFB5242A651A00829871 /* ShellScript */,
+				7555FF77242A565900829871 /* Sources */,
+				7555FF78242A565900829871 /* Frameworks */,
+				7555FF79242A565900829871 /* Resources */,
+				7555FFB4242A642300829871 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosApp;
+			productName = iosApp;
+			productReference = 7555FF7B242A565900829871 /* iosApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F81031BD29F668DF00113F45 /* iosAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81031CD29F668DF00113F45 /* Build configuration list for PBXNativeTarget "iosAppTests" */;
+			buildPhases = (
+				F81031BA29F668DF00113F45 /* Sources */,
+				F81031BB29F668DF00113F45 /* Frameworks */,
+				F81031BC29F668DF00113F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F81031C329F668DF00113F45 /* PBXTargetDependency */,
+			);
+			name = iosAppTests;
+			productName = iosAppTests;
+			productReference = F81031BE29F668DF00113F45 /* iosAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7555FF73242A565900829871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = orgName;
+				TargetAttributes = {
+					7555FF7A242A565900829871 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F81031BD29F668DF00113F45 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7555FF7A242A565900829871;
+					};
+				};
+			};
+			buildConfigurationList = 7555FF76242A565900829871 /* Build configuration list for PBXProject "iosApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7555FF72242A565900829871;
+			productRefGroup = 7555FF7C242A565900829871 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F8E407E029F2AF3A008EDD86 /* Products */;
+					ProjectRef = F8E407DF29F2AF3A008EDD86 /* DatabaseOperatorNative.xcodeproj */;
+				},
+				{
+					ProductGroup = F867D03829DF03040051F9BD /* Products */;
+					ProjectRef = F867D03729DF03040051F9BD /* FannkuchReduxNative.xcodeproj */;
+				},
+				{
+					ProductGroup = F867D03E29DF03230051F9BD /* Products */;
+					ProjectRef = F867D03D29DF03230051F9BD /* FastaNative.xcodeproj */;
+				},
+				{
+					ProductGroup = F867D04629DF04090051F9BD /* Products */;
+					ProjectRef = F867D04529DF04090051F9BD /* HttpRequesterNative.xcodeproj */;
+				},
+				{
+					ProductGroup = F867D04C29DF04160051F9BD /* Products */;
+					ProjectRef = F867D04B29DF04160051F9BD /* JsonParserNative.xcodeproj */;
+				},
+				{
+					ProductGroup = F867D05229DF04220051F9BD /* Products */;
+					ProjectRef = F867D05129DF04220051F9BD /* NBodyNative.xcodeproj */;
+				},
+				{
+					ProductGroup = F867D05A29DF04440051F9BD /* Products */;
+					ProjectRef = F867D05929DF04440051F9BD /* ReverseComplementNative.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7555FF7A242A565900829871 /* iosApp */,
+				F81031BD29F668DF00113F45 /* iosAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F867D03C29DF03040051F9BD /* FannkuchReduxNative.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FannkuchReduxNative.framework;
+			remoteRef = F867D03B29DF03040051F9BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F867D04229DF03230051F9BD /* FastaNative.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FastaNative.framework;
+			remoteRef = F867D04129DF03230051F9BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F867D04A29DF04090051F9BD /* HttpRequesterNative.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = HttpRequesterNative.framework;
+			remoteRef = F867D04929DF04090051F9BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F867D05029DF04160051F9BD /* JsonParserNative.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JsonParserNative.framework;
+			remoteRef = F867D04F29DF04160051F9BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F867D05629DF04220051F9BD /* NBodyNative.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NBodyNative.framework;
+			remoteRef = F867D05529DF04220051F9BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F867D05E29DF04440051F9BD /* ReverseComplementNative.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReverseComplementNative.framework;
+			remoteRef = F867D05D29DF04440051F9BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F8E407E429F2AF3A008EDD86 /* DatabaseOperatorNative.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DatabaseOperatorNative.framework;
+			remoteRef = F8E407E329F2AF3A008EDD86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7555FF79242A565900829871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E4078729F18624008EDD86 /* json.txt in Resources */,
+				F867CDC429C3AAF60051F9BD /* fasta1000.txt in Resources */,
+				F867CDFC29C9EF8B0051F9BD /* RCout.txt in Resources */,
+				058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */,
+				F8975C062A1BC97C008901C4 /* large-file-fourfold.txt in Resources */,
+				F8B2ACFC2A1847500046A8E7 /* fasta350000.txt in Resources */,
+				F896E88E2A05462700FD2184 /* large-file.txt in Resources */,
+				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,
+				F8B2ACF32A17A66D0046A8E7 /* large-file-triple.txt in Resources */,
+				F814513C2A0A95B9003702FA /* large-file-double.txt in Resources */,
+				F867CDCC29C3B0530051F9BD /* fasta225000.txt in Resources */,
+				F896E8842A053A7700FD2184 /* jsonGithub.txt in Resources */,
+				F8975BFD2A1B9D0E008901C4 /* fasta10000000.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81031BC29F668DF00113F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7555FFB5242A651A00829871 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$SRCROOT/..\"\n./gradlew :shared:embedAndSignAppleFrameworkForXcode :fannkuchReduxKmm:embedAndSignAppleFrameworkForXcode :nBodyKmm:embedAndSignAppleFrameworkForXcode :fastaKmm:embedAndSignAppleFrameworkForXcode :reverseComplementKmm:embedAndSignAppleFrameworkForXcode :httpRequesterKmm:embedAndSignAppleFrameworkForXcode :jsonParserKmm:embedAndSignAppleFrameworkForXcode :databaseOperatorKmm:embedAndSignAppleFrameworkForXcode \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7555FF77242A565900829871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E4079229F27456008EDD86 /* GithubHandler.swift in Sources */,
+				F867CE2629C9FFD70051F9BD /* kmmTests.swift in Sources */,
+				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				F8B7DFB129A7B4AE00E8C056 /* PerformanceCalculator.swift in Sources */,
+				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				F867CF1429D473190051F9BD /* MetricHandler.swift in Sources */,
+				F8B7DFB329A7B54300E8C056 /* Protocols.swift in Sources */,
+				F896E8972A07DBF300FD2184 /* Experiments.swift in Sources */,
+				F867CF1629D473600051F9BD /* Configs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81031BA29F668DF00113F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81031C129F668DF00113F45 /* iosAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F81031C329F668DF00113F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7555FF7A242A565900829871 /* iosApp */;
+			targetProxy = F81031C229F668DF00113F45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7555FFA3242A565B00829871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Debug;
+		};
+		7555FFA4242A565B00829871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7555FFA6242A565B00829871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
+				DEVELOPMENT_TEAM = R4TA29D3G5;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/../fannkuchReduxKmm/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/../nBodyKmm/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/../fastaKmm/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/../reverseComplementKmm/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/../httpRequesterKmm/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/../jsonParserKmm/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/../databaseOperatorKmm/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+				);
+				INFOPLIST_FILE = iosApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					shared,
+					"-framework",
+					fannkuchReduxKmm,
+					"-framework",
+					nBodyKmm,
+					"-framework",
+					fastaKmm,
+					"-framework",
+					reverseComplementKmm,
+					"-framework",
+					httpRequesterKmm,
+					"-framework",
+					jsonParserKmm,
+					"-framework",
+					databaseOperatorKmm,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skantz.iosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7555FFA7242A565B00829871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
+				DEVELOPMENT_TEAM = R4TA29D3G5;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/../fannkuchReduxKmm/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/../nBodyKmm/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/../fastaKmm/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/../reverseComplementKmm/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/../httpRequesterKmm/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/../jsonParserKmm/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+					"$(SRCROOT)/../databaseOperatorKmm/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
+				);
+				INFOPLIST_FILE = iosApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					shared,
+					"-framework",
+					fannkuchReduxKmm,
+					"-framework",
+					nBodyKmm,
+					"-framework",
+					fastaKmm,
+					"-framework",
+					reverseComplementKmm,
+					"-framework",
+					httpRequesterKmm,
+					"-framework",
+					jsonParserKmm,
+					"-framework",
+					databaseOperatorKmm,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skantz.iosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F81031C429F668DF00113F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = skantz.iosAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iosApp";
+			};
+			name = Debug;
+		};
+		F81031C529F668DF00113F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = skantz.iosAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iosApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7555FF76242A565900829871 /* Build configuration list for PBXProject "iosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7555FFA3242A565B00829871 /* Debug */,
+				7555FFA4242A565B00829871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7555FFA5242A565B00829871 /* Build configuration list for PBXNativeTarget "iosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7555FFA6242A565B00829871 /* Debug */,
+				7555FFA7242A565B00829871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81031CD29F668DF00113F45 /* Build configuration list for PBXNativeTarget "iosAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81031C429F668DF00113F45 /* Debug */,
+				F81031C529F668DF00113F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7555FF73242A565900829871 /* Project object */;
+}
