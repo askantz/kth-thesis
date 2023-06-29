@@ -1,3 +1,5 @@
+// Source: https://github.com/pschwermer/kth-thesis/blob/master/Code/BenchmarkApp/src/main/java/com/benchmarks/patrik/benchmarks/kotlinConverted/ReverseComplement.kt
+
 package com.benchmarks.patrik.benchmarks.kotlinConverted
 
 import java.io.InputStream
@@ -7,8 +9,6 @@ import java.io.InputStream
  * http://benchmarksgame.alioth.debian.org/
  * contributed by Tao Lei
  * mostly auto-converted to Kotlin by Patrik Schwermer
- *
- * Source for file: https://github.com/pschwermer/kth-thesis/blob/master/Code/BenchmarkApp/src/main/java/com/benchmarks/patrik/benchmarks/kotlinConverted/ReverseComplement.kt
  * 
  */
 
