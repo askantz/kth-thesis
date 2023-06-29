@@ -1,3 +1,5 @@
+// Source: https://github.com/pschwermer/kth-thesis/blob/master/Code/BenchmarkApp/src/main/java/com/benchmarks/patrik/benchmarks/kotlinConverted/Fasta.kt 
+
 package com.benchmarks.patrik.benchmarks.kotlinConverted
 
 /*
@@ -8,8 +10,6 @@ package com.benchmarks.patrik.benchmarks.kotlinConverted
  * modified by Rikard Mustajärvi
  * mostly auto-converted to Kotlin by Patrik Schwermer
  * 
- * Source for file: 
- * https://github.com/pschwermer/kth-thesis/blob/master/Code/BenchmarkApp/src/main/java/com/benchmarks/patrik/benchmarks/kotlinConverted/Fasta.kt 
  */
 
 import java.io.IOException
