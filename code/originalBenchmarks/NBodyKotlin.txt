@@ -1,3 +1,6 @@
+// Source: https://github.com/pschwermer/kth-thesis/blob/master/Code/BenchmarkApp/src/main/java/com/benchmarks/patrik/benchmarks/kotlinConverted/nbody.kt
+
+
 package com.benchmarks.patrik.benchmarks.kotlinConverted
 
 /* The Computer Language Benchmarks Game
@@ -5,8 +8,6 @@ package com.benchmarks.patrik.benchmarks.kotlinConverted
    contributed by Mark C. Lewis
    modified slightly by Chad Whipkey
    mostly auto-converted to Kotlin by Patrik Schwermer
-
-   Source for file: https://github.com/pschwermer/kth-thesis/blob/master/Code/BenchmarkApp/src/main/java/com/benchmarks/patrik/benchmarks/kotlinConverted/nbody.kt
 
 */
 
